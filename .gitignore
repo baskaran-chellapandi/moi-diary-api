@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+*.tsbuildinfo
+
+# Local database
+data
+*.sqlite
+*.sqlite-journal
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Tests and coverage
+coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS and editor
+.DS_Store
+.idea
+*.swp
